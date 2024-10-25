@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url('./images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .hero-content .items{
+    height: 200px;
+}
+.hero .hero-content .items .item{
+    height: 300px;
+    opacity: 0;
+    transition: all 1s;
+}
+.hero .hero-content .items .active{
+    opacity: 1;
+    transition: all 1s;
+}
+.hero .tab-btns{
+    z-index: 100;
+}
+.hero .tab-btns li{
+    flex: 0 0 33%;
+    cursor: pointer;
+}
+.hero .tab-btns .active{
+    border-bottom: 4px solid white;
+}
+
+.hero .hero-images{
+    height: 540px;
+}
+.hero .hero-images .item-img{
+    transform: translateY(-50%) scale(0);
+    opacity: 0;
+    transition: all 1s;
+}
+.hero .hero-images .active{
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+    transition: all 1s;
+}
+
+
+.our-products{
+    background-color: #1C2728;
+}
+.our-products .products .list li span{
+    display: inline-block;
+    
+    width: 34px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    margin-top: 3px;
+    background-color: #EE7E22;
+    color: white;
+}
+.our-products .products .list li p{
+    font-size: 14px;
+}
+.our-products .products .list li span svg{
+    animation-name: pulse;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.our-products .petroleum{
+    background-color: #EE7E22;
+}
+.our-products .chemical{
+    background-color: #86A43D;
+}
+
+
+.bg-video .bg-mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* .bg-video .bg-mask.active-animation{
+    animation-name: grow;
+    animation-duration: 48s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes grow{
+    form{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1000);
+    }
+} */
+
+
+.case-studies-section .case-studies .case-study .case-study-content{
+    display: none;
+}
+.case-studies-section .case-studies .active .case-study-content{
+    display: block;
+}
+.case-studies-section .case-studies .active{
+    border-left: 3px solid black;
+}
+
+.culture{
+    background-color: #F8F8F9;
+}
+
+
+
+.inslights .nav .nav-link{
+    font-size: 10px;
+    color: black;
+}
+.inslights .nav .active{
+    background-color: #86A43D;
+    color: white;
+}
+
+.inslights .tab-content .tab-pane .card{
+    background: #F8F8F9;
+    transition: all 2s;
+}
+.inslights .tab-content .tab-pane .card .bg-img{
+    z-index: -10;
+    opacity: 0;
+}
+.inslights .tab-content .tab-pane .card:hover{
+    color: white;
+    background-color: transparent;
+}
+.inslights .tab-content .tab-pane .card:hover .card-footer{
+    border-color: white;
+}
+.inslights .tab-content .tab-pane .card:hover .bg-img{
+    opacity: 1;
+    transition: all 2s;
+}
+.inslights .tab-content .tab-pane .card .card-body .card-text{
+    opacity: 0;
+    transition: all 1s;
+}
+.inslights .tab-content .tab-pane .card .card-body .card-text-1{
+    opacity: 1;
+    transition: all 1s;
+}
+.inslights .tab-content .tab-pane .card .card-body .card-text-2{
+    color: white;
+    transform: translate(10px,10px) scale(1.1);
+    font-size: 14px;
+    transition: all 2s;
+}
+.inslights .tab-content .tab-pane .card:hover .card-body .card-text-1{
+    opacity: 0;
+    transition: all 1s;
+}
+.inslights .tab-content .tab-pane .card:hover .card-body .card-text-2{
+    opacity: 1;
+    transform: translate(0,0) scale(1);
+    transition: all 2s;
+}
+
+
+/* map--- */
+.ind-map .i-map span:nth-child(2){
+    top: 8%;
+    left: 40%;
+}
+.ind-map .i-map span:nth-child(3){
+    top:46%;
+    left: 30%;
+}
+.ind-map .i-map span:nth-child(4){
+    top:64%;
+    left: 46%;
+}
+.ind-map .i-map span:nth-child(5){
+    bottom:20%;
+    left: 0%;
+}
+.ind-map .i-map >span::before{
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+}
+
+.ind-map .i-map span:nth-child(2)::before{
+    top: 8%;
+    left: -20%;
+}
+.ind-map .i-map span:nth-child(3)::before{
+    top:-20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ind-map .i-map span:nth-child(4)::before{
+    top:10%;
+    left: -10%;
+}
+.ind-map .i-map span:nth-child(5)::before{
+    top: -20%;
+    right: 10%;
+}
+.ind-map .left-imgs li,.ind-map .right-imgs li{
+    position: relative;
+}
+.ind-map .left-imgs li::before{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    height: 2px;
+    width: 266px;
+    background-color: #EE7E22;
+    z-index: -1;
+}
+.ind-map .left-imgs li:nth-child(1)::after{
+    top: 20%;
+    height: 2px;
+    content: "";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 80%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    z-index: -1;
+}
+.ind-map .left-imgs li:nth-child(2)::before{
+    top: 50%;
+    height: 2px;
+}
+.ind-map .left-imgs li:nth-child(2)::after{
+    height: 2px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 80%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    z-index: -1;
+}
+.ind-map .left-imgs li::after{
+    margin-left: 266px;
+}
+
+.ind-map .right-imgs li::before{
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 80%;
+    height: 2px;
+    width: 480px;
+    background-color: #EE7E22;
+    z-index: -1;
+}
+.ind-map .right-imgs li::after{
+    height: 2px;
+    content: "";
+    position: absolute;
+    top: 40%;
+    transform: translate(50%,-50%);
+    right: 80%;
+    margin-right: 480px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    z-index: -1;
+}
+.ind-map .left-imgs h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.ind-map{
+    font-size: 14px;
+}
+
+.ind-map .i-map .lists ul{
+    font-size: 10px;
+}
+.ind-map .i-map .lists ul li{
+    padding: 4px;
+    background-color: white;
+    border-radius: 4px;
+    max-width: 140px;
+}
+.ind-map .i-map .lists ul li h5{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.ind-map .i-map .lists ul li span{
+    font-size: 8px;
+}
+.ind-map .i-map .lists ul li:nth-child(1){
+    top: 10%;
+}
+.ind-map .i-map .lists ul li:nth-child(1):before{
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    top: 40%;
+    right: -50%;
+}
+
+.ind-map .i-map .lists ul li:nth-child(2){
+    bottom: 2%;
+}
+.ind-map .i-map .lists ul li:nth-child(2):before{
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    top: 40%;
+    right: -50%;
+}
+.ind-map .i-map .lists ul li:nth-child(3){
+    top: 16%;
+    right: 20%;
+}
+.ind-map .i-map .lists ul li:nth-child(3):before{
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    top: 40%;
+    left: -130%;
+}
+.ind-map .i-map .lists ul li:nth-child(4){
+    bottom: 0%;
+    right: 25%;
+}
+.ind-map .i-map .lists ul li:nth-child(4):before{
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    top: 40%;
+    left: -100%;
+}
+
+@media only screen and (max-width:1200px){
+    .ind-map .left-imgs li::before{
+        width: 180px;
+    }
+    .ind-map .right-imgs li::before{
+        width: 350px;
+    }
+    .ind-map .left-imgs li::after{
+        margin-left: 180px;
+    }
+    .ind-map .right-imgs li::after{
+        margin-right: 350px;
+    }
+
+}
+@media only screen and (max-width:992px){
+    .ind-map .left-imgs li::before{
+        display: none;
+    }
+    .ind-map .right-imgs li::before{
+        display:   none;
+    }
+    .ind-map .left-imgs li::after{
+        display: none;
+    }
+    .ind-map .right-imgs li::after{
+        display: none;
+    }
+}

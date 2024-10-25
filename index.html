@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/HMEL-Logo.png" alt="">
+          </a>
+          <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="#">
+                <img src="./images/HMEL-Logo.png" alt="">
+              </a>
+              <button type="button" class="btn-close btn-close-white text-light shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 fw-bold">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Operations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Sustainability</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Insights</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <section class="hero mb-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-10 col-lg-6">
+            <div class="hero-content text-white">
+              <div class="items position-relative">
+                <div class="item active position-absolute top-0 start-0" id="item-1">
+                  <h1>Energy for all: <br class="d-none d-lg-block">
+                    the future of <br class="d-none d-lg-block"> energy is here</h1>
+                  <p>Fueling India with superior petroleum and petrochemical products.
+                    </p>
+                </div>
+                <div class="item position-absolute top-0 start-0" id="item-2">
+                  <h1>Commitment to world <br class="d-none d-lg-block">class technology and <br class="d-none d-lg-block"> innovation</h1>
+                  <p>Process automation has been at the heart of HMEL's strategic vision.
+                    </p>
+                </div>
+                <div class="item position-absolute top-0 start-0" id="item-3">
+                  <h1>Building a resilient <br class="d-none d-lg-block"> tomorrow and <br class="d-none d-lg-block"> sustainable future</h1>
+                  <p>Fueling India with superior petroleum and petrochemical products.
+                    </p>
+                </div>
+              </div>
+                <a class="btn rounded-0 px-5 py-2 btn-success">Learn More</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-images position-relative">
+              <div id="item-image-1" class="item-img active position-absolute top-50 left-0">
+                <img class="w-100" src="./images/man.png" alt="man">
+              </div>
+              <div id="item-image-2" class="item-img position-absolute top-50 left-0">
+                <img class="w-100" src="./images/woman.png" alt="man">
+              </div>
+              <div id="item-image-3" class="item-img position-absolute top-50 left-0">
+                <img class="w-100" src="./images/hand.png" alt="man">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <ul class="tab-btns text-white list-unstyled d-flex flex-row justify-content-between border-bottom border-2 position-relative" >
+              <li class="text-center active p-2 fs-5" id="tab-btn-1" data-id="1">
+                Core Focus
+              </li>
+              <li class="text-center p-2 fs-5" id="tab-btn-2" data-id="2">
+                Sustainibility
+              </li>
+              <li class="text-center p-2 fs-5" id="tab-btn-3" data-id="3">
+                Innovation
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </header>
+
+
+  <section class="energy-landscape py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h1 class="fw-bold">Creating a new energy landscape for India</h1>
+        </div>
+        <div class="col-md-6">
+          <p class="fw-medium">HPCL-Mittal Energy Limited (HMEL) is dedicated to energising a brighter tomorrow for millions of Indians with its superior petroleum and petrochemical products. A young and value-driven organisation, HMEL benchmarks itself against the global best to deliver consistent excellence to fuel India’s growth story.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section class="ind-map">
+    <div class="container">
+      <ul class="row list-unstyled">
+        <li class="col-lg-3">
+          <ul class="left-imgs list-unstyled h-100 d-flex flex-lg-column justify-content-around">
+            <li class="text-center p-1">
+              <img class="img-fluid" src="./images/Mask group (5).png" alt="">
+              <h5>Unmatched Customer Service</h5>
+              <span>Integrated with latest technology</span>
+
+            </li>
+            <li class="text-center p-1">
+              <img class="img-fluid" src="./images/Mask group (8).png" alt="">
+              <h5>Unmatched Customer Service</h5>
+              <span>Integrated with latest technology</span>
+            </li>
+          </ul>
+        </li>
+        <li class="col-lg-6">
+          <div class="i-map position-relative">
+            <img class="w-100" src="./images/indiamap.png" alt="">
+            <span class="text-center position-absolute">
+              <h5>165 MW</h5>
+              <p>Captive Power Plant</p>
+            </span>
+            <span class="text-center position-absolute">
+              <h5>1,020,000 KL</h5>
+              <p>Crude Oil Terminal</p>
+            </span>
+            <span class="text-center position-absolute">
+              <h5>1017 KM</h5>
+              <p>Crude Pipeline sized up to 18 MMT</p>
+            </span>
+            <span class="text-center position-absolute">
+              <h5>11.3 MMTPA</h5>
+              <p>Best in class Complex Refinery</p>
+            </span>
+            <div class="lists top-0 d-none">
+              <ul class="list-left-imgs list-unstyled h-100 d-flex d-lg-none flex-column justify-content-around">
+                <li class="text-center shadow-lg mb-5 position-absolute">
+                  <img class="img-fluid" src="./images/Mask group (5).png" alt="">
+                  <h5>Unmatched Customer Service</h5>
+                  <span>Integrated with latest technology</span>
+    
+                </li>
+                <li class="text-center shadow-lg position-absolute">
+                  <img class="img-fluid" src="./images/Mask group (8).png" alt="">
+                  <h5>Unmatched Customer Service</h5>
+                  <span>Integrated with latest technology</span>
+                </li>
+                <li class="text-center shadow-lg mb-5 position-absolute">
+                  <img class="img-fluid" src="./images/Mask group (5).png" alt="">
+                  <h5>Unmatched Customer Service</h5>
+                  <span>Integrated with latest technology</span>
+    
+                </li>
+                <li class="text-center shadow-lg position-absolute">
+                  <img class="img-fluid" src="./images/Mask group (8).png" alt="">
+                  <h5>Unmatched Customer Service</h5>
+                  <span>Integrated with latest technology</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="col-lg-3">
+          <ul class="right-imgs list-unstyled h-100 d-flex flex-lg-column justify-content-around">
+            <li class="text-center p-1">
+              <img class="img-fluid" src="./images/Mask group (6).png" alt="">
+              <h5>Unmatched Customer Service</h5>
+              <span>Integrated with latest technology</span>
+            </li>
+            <li class="text-center p-1">
+              <img class="img-fluid" src="./images/Mask group (7).png" alt="">
+              <h5>Unmatched Customer Service</h5>
+              <span>Integrated with latest technology</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-products my-5 text-white">
+    <div class="container p-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6 p-0">
+            <div class="products h-100 py-3 p-1 p-md-5">
+              <h1>Our Products</h1>
+              <p class="my-4">With the aim of improving the quality of life by providing unmatched customer service, our portfolio of products propels life every day while reducing the environment impact.</p>
+              <ul class="list mt-3 list-unstyled">
+                <li class="d-flex flex-row gap-3 align-items-start mb-3">
+                  <span>
+                    <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Vector 62" d="M1 6L5.5 10.5L6.5 11.5L17 1" stroke="white" stroke-width="2"/>
+                    </svg>
+                  </span>
+                    
+                  <div>
+                    <h5>Best Energy Solutions</h5>
+                    <p>Contributing to the Vitality of the Economy by 
+                      Delivering and Promoting Exceptional, Superior Products</p>
+                  </div>
+                </li>
+                <li class="d-flex flex-row gap-3 align-items-start mb-3">
+                  <span>
+                    <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Vector 62" d="M1 6L5.5 10.5L6.5 11.5L17 1" stroke="white" stroke-width="2"/>
+                    </svg>
+                  </span>
+                  <div>
+                    <h5>Best Energy Solutions</h5>
+                    <p>Contributing to the Vitality of the Economy by 
+                      Delivering and Promoting Exceptional, Superior Products</p>
+                  </div>
+                </li>
+                <li class="d-flex flex-row gap-3 align-items-start mb-3">
+                  <span>
+                    <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Vector 62" d="M1 6L5.5 10.5L6.5 11.5L17 1" stroke="white" stroke-width="2"/>
+                    </svg>
+                  </span>
+                  <div>
+                    <h5>Best Energy Solutions</h5>
+                    <p>Contributing to the Vitality of the Economy by 
+                      Delivering and Promoting Exceptional, Superior Products</p>
+                  </div>
+                </li>
+                
+              </ul>
+            </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row h-50">
+            <div class="col-6 p-0">
+              <div class="petroleum d-flex justify-content-center align-items-center w-100 h-100 flex-column">
+                <h4>Petroleum Products</h4>
+                <a href="#" class="text-white text-decoration-none fw-bold">view all ></a>
+              </div>
+            </div>
+            <div class="col-6 p-0">
+              <img class="w-100 h-100 object-fit-cover" src="./images/petroleum.png" alt="">
+            </div>
+          </div>
+          <div class="row h-50">
+            <div class="col-6 p-0">
+              <img class="w-100 h-100 object-fit-cover" src="./images/chemicals.png" alt="">
+            </div>
+            <div class="col-6 p-0">
+              <div class="chemical d-flex justify-content-center align-items-center w-100 h-100 flex-column">
+                <h4>Petrochemicals</h4>
+                <a href="#" class="text-white text-decoration-none fw-bold">View All ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="case-studies-section my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center my-4">
+          <h1 class="fw-bold">Case Studies</h1>
+          <p class="fw-medium">Contributing to the Vitality of the Economy by Delivering and Promoting Exceptional, Superior Products</p>
+        </div>
+        <div class="col-12">
+          <div class="row align-items-center position-relative pb-3 gy-4 p-1">
+            <div class="col-md-6 pe-0 pe-md-5">
+              <img class="w-100 pe-0 pe-md-5" id="slider-img" src="./images/slider/slider-1.png" alt="">
+            </div>
+            <div class="col-md-6 border-start border-1 border-dark p-0 case-studies">
+              <div class="py-4 ps-5 case-study active" id="case-study-1">
+                <h4>Case Study 1</h4>
+                <div class="case-study-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="d-none d-lg-block"> Dolor, voluptatum.</p>
+                  <a href="#" class="fw-bold text-decoration-none text-dark">Know more ></a>
+                </div>
+              </div>
+              <div class="py-4 ps-5 case-study" id="case-study-2">
+                <h4>Case Study 2</h4>
+                <div class="case-study-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="d-none d-lg-block"> Dolor, voluptatum.</p>
+                  <a href="#" class="fw-bold text-decoration-none text-dark">Know more ></a>
+                </div>
+              </div>
+              <div class="py-4 ps-5 case-study" id="case-study-3">
+                <h4>Case Study 3</h4>
+                <div class="case-study-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="d-none d-lg-block"> Dolor, voluptatum.</p>
+                  <a href="#" class="fw-bold text-decoration-none text-dark">Know more ></a>
+                </div>
+              </div>
+              <div class="slider-btn position-absolute bottom-0 start-50 translate-middle-x">
+                <button class="btn btn-secondary mx-2 rounded-circle" onclick="prevCase()"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn btn-primary mx-2 rounded-circle btn-success" onclick="nextCase()"><i class="fa-solid fa-angle-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-video position-relative overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="video">
+            <video autoplay class="w-100">
+              <source src="./videos/building.mp4">
+            </video>
+
+            <img class="bg-mask" id="bg-mask" src="./images/bg-mask.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="culture py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 pb-3">
+          <h1 class="fw-bold">We foster an <br class="d-none d-lg-block"> inclusive culture.</h1>
+          <p class="fw-medium">HMEL Team with its passion and hard work <br class="d-none d-lg-block"> has made HMEL a Great Place to Work. </p>
+          <a class="btn rounded-0 px-5 py-2 btn-success">Learn More</a>
+        </div>
+        <div class="col-md-8">
+          <div class="row align-items-stretch">
+            <div class="col-4 d-flex flex-column gap-3 justify-content-center">
+              <div>
+                <img style="width: 100%;" src="./images/Mask group (1).png" alt="">
+              </div>
+              <div class="text-end">
+                <img style="width: 90%;" src="./images/Mask group (4).png" alt="">
+              </div>
+            </div>
+            <div class="col-8 d-flex flex-column gap-3 justify-content-center">
+              <div>
+                <img style="width: 100%;" src="./images/Mask group (2).png" alt="">
+              </div>
+              <div>
+                <img style="width: 80%;" src="./images/Mask group (3).png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="inslights my-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 border-bottom border-1 p-0 py-2 mb-4">
+          <h1>Our Latest Insights</h1>
+        </div>
+        <div class="col-12">
+          <ul class="nav nav-pills mb-4 gap-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active rounded-pill px-4 border border-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">News</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-pill px-4 border border-1" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Invester</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-pill px-4 border border-1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Blog</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="row gy-3">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <div class="row gy-3">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+              <div class="row gy-3">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+              <div class="row gy-3">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card border-0 rounded-0 position-relative">
+                    <div class="card-body position-relative" style="height: 260px; z-index: 100;">
+                      <p class="card-text card-text-1 fw-medium position-absolute top-0 start-0 p-2">petrochemical products to fuel the growth of surging India.</p>
+                      <p class="card-text card-text-2 position-absolute top-0 start-0 p-2">Using world-class technologies, we produce superior quality, high value and environmentally safe petroleum and petrochemical products to fuel the growth of surging India.</p>
+                      
+                    </div>
+                    <div class="card-footer position-relative d-flex justify-content-between align-items-center bg-transparent" style="z-index: 100;">
+                      <span class="fw-bolder fs-1">02</span>
+                      <span>NOV <br class="d-none d-lg-block">2023</span>
+                    </div>
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover bg-img z-0" src="./images/card-bg.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="certificates my-5 border-top border-bottom border-2">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-2 text-center certificate border-end border-2 p-2 p-md-4">
+          <img class="w-50 object-fit-contain" src="./images/certificate1.png" alt="">
+        </div>
+        <div class="col-2 text-center certificate border-end border-2 p-2 p-md-4">
+          <img class="w-50 object-fit-contain" src="./images/certificate2.png" alt="">
+        </div>
+        <div class="col-2 text-center certificate border-end border-2 p-2 p-md-4">
+          <img class="w-50 object-fit-contain" src="./images/certificate1.png" alt="">
+        </div>
+        <div class="col-2 text-center certificate border-end border-2 p-2 p-md-4">
+          <img class="w-50 object-fit-contain" src="./images/certificate4.png" alt="">
+        </div>
+        <div class="col-2 text-center certificate p-2 p-md-4">
+          <img class="w-50 object-fit-contain" src="./images/certificate5.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mt-3">
+          <img src="./images/HMEL-Logo2.png" alt="">
+        </div>
+        <div class="col-6 col-md-2 mt-3">
+          <ul class="list-unstyled d-flex flex-column gap-3 fw-medium">
+            <li>
+              <a class="text-decoration-none text-black" href="#">About Us</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Products</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Sustainability</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Inverters</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Operations</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mt-3">
+          <ul class="list-unstyled d-flex flex-column gap-3 fw-medium">
+            <li>
+              <a class="text-decoration-none text-black" href="#">News</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Event</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Media</a>
+            </li>
+            <li>
+              <a class="text-decoration-none text-black" href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 mt-3">
+          <div class="subscribe">
+            <h6>Subscribe</h6>
+            <span class="d-block my-2">Sign up for my newsletter to get latest updates. Do not worry, we will never spam you.</span> <br class="d-none d-lg-block">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control rounded-0 shadow-none" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+              <span class="input-group-text rounded-0" id="basic-addon2" style="background-color: #86A43D;"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="ri:arrow-up-line">
+                <path id="Vector" d="M14.0085 10.076L7.88145 15.5695L6.97879 14.5628L13.1058 9.06923L7.98482 8.79007L8.05841 7.44012L15.4841 7.84491L15.0793 15.2706L13.7293 15.197L14.0085 10.076Z" fill="white"/>
+                </g>
+                </svg>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 d-flex justify-content-between fw-semibold py-3 border-top border-1">
+          <span>Terms & Conditions    |    Privacy Policy</span>
+          <span>2023 HMEL  |  All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="./script.js"></script>
+</body>
+</html>
